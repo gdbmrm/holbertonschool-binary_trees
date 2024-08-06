@@ -18,7 +18,7 @@ int main(void)
     binary_tree_insert_right(root->left, 54);
     binary_tree_insert_right(root, 128);
     root->left->left = binary_tree_node(root->left, 10);
-    root->right->left = binary_tree_node(root->right, 10);
+    root->right->left = binary_tree_node(root->right, 15);
 
     binary_tree_print(root);
     perfect = binary_tree_is_perfect(root);
